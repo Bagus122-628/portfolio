@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+
+.hidden {
+  opacity: 0;
+}
+.console-container {
+  font-family: Khula;
+  font-size: 4em;
+  text-align: center;
+  /* height: 200px;
+  width: 600px; */
+  display: block;
+  /* position: absolute;
+  color: white;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; */
+  margin: auto;
+}
+.console-underscore {
+  display: inline-block;
+  position: relative;
+  top: -0.14em;
+  left: 10px;
+}
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e2edff;
+  height: 100vh;
+  position: relative;
+}
+
+.wave1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#projects {
+  background-color: #e2edff;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+div.col:hover svg {
+  transform: scale(1.1);
+}
+
+/* Media Query ketika dibuka di mobile */
+@media (max-width: 576px) {
+  .btn-github {
+    width: 90%;
+  }
+}
