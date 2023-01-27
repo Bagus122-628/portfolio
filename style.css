@@ -49,6 +49,9 @@ div.col:hover svg {
   transform: scale(1.1);
 }
 
+a.card:hover {
+  transform: scale(1.01);
+}
 /* Media Query ketika dibuka di mobile */
 @media (max-width: 576px) {
   .btn-github {
